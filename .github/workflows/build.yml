@@ -16,7 +16,7 @@ jobs:
     concurrency: site-build-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Deploy to GitHub.
       uses: JamesIves/github-pages-deploy-action@v4
       with:
